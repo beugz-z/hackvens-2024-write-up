@@ -30,7 +30,7 @@ cqt /flq
 The text is obsfucate like a qwerty keyboard and whe can see some Backspace. Some command may be thinking to a ssh connexion.
 After deobfuscating the output, i got this for the ssh command : 
 ```
-ssh h4ck3r0@remote-server-ssh.hackvens.fr -p 2222
+ssh h4ck3r@remote-server-ssh.hackvens.fr -p 2222
 yes
 p00sszz0r[Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace]ch4'p12[Backspace]0n
 cqt /flq
