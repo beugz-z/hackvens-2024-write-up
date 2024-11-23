@@ -1,8 +1,9 @@
 
 # Write Up : Hackvens 2024
-## Author : $beugz
+
+### Author : $beugz
 ### Challenge Type : Forensic
-#### Challenge Name : Analyse Me
+### Challenge Name : Analyse Me
 
 We've one .pcapng file whose md5 checksum is : 65cc809ee91597a1ff9a19db520fde5f 
 
@@ -28,7 +29,7 @@ cqt /flq
 The text is obsfucate like a qwerty keyboard and whe can see some Backspace. Some command may be thinking to a ssh connexion.
 After deobfuscating the output, i got this for the ssh command : 
 
-sh h4ck3r0@remote-server-ssh.hackvens.fr -p 2222
+ssh h4ck3r0@remote-server-ssh.hackvens.fr -p 2222
 yes
 p00sszz0r[Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace]ch4'p12[Backspace]0n
 cqt /flq	
