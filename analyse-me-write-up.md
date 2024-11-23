@@ -1,5 +1,5 @@
 
-# Write Up : Hackvens 2024 <br>  <br>
+# Write Up : Hackvens 2024 <br> 
 
 *Author : $beugz<br>*
 *Challenge Type : Forensic <br>*
