@@ -18,9 +18,9 @@ I choose to export the hexadecimal data and to make things easier, i output it i
 `tshark -r challenge.pcapng -T fields -e usb.capdata > hex_data`
 
 Then i've got to translate the haxedecimal data into ASCII format with a python script
-The script returned me this : <br>
-
+The script returned me this : 
 ```
+
 Texte déchiffré :
 cssh h4ck3r0rree'ottee6[Backspace]6servveer6ssh.hhqqckvveenens.ffrr 6p 2222
 yes
@@ -29,9 +29,9 @@ cqt /flq
 ```
 
 The text is obsfucate like a qwerty keyboard and whe can see some Backspace. Some command may be thinking to a ssh connexion.
-After deobfuscating the output, i got this for the ssh command : <br>
-
+After deobfuscating the output, i got this for the ssh command : 
 ```
+
 ssh h4ck3r0@remote-server-ssh.hackvens.fr -p 2222
 yes
 p00sszz0r[Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace][Backspace]ch4'p12[Backspace]0n
